@@ -9,6 +9,7 @@ How to install:
 * Clone this repo.
 * Call 'publishLocal' in sbt on this project.
 * addSbtPlugin("pl.tmkk" %% "sbt-layout" % "1.0.0-SNAPSHOT") or event better add this to your global list of plugins.
+* Call 'createStdDirs' in your project.
 
 If you need more dirs add this to your build.sbt:
 
